@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/phone-book', 'Web\PhonesBookController@index');
+Route::get('/', 'Web\PhonesBookController@index');
 Route::get('/edit-phone/{phone_id}', 'Web\EditPhonesController@index');
